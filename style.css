@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2vw;
+    gap: 0.8vw;
+   
+}
+.inicio a{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 4vh;
+    gap: 0.8vw;
+}
+.logo img{
+    height: 4vh;
+}
+.caregiver i{
+    color: #00bf8f  ;
+}
+select{
+    color: rgb(109, 109, 109);
+    border: none;
+}
+.caregiver select{
+    color: #00bf8f;
+   
+}
+.bodyForm{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    
+}
+.imagens{
+    padding-left: 10vw;
+}
+.imagens img{
+    height: 10vh;
+    
+}
+.form{
+    height: 65vh;
+    width: 24vw;
+    margin-left: 12vw;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.textTitutlo{
+    color: rgb(109, 109, 109);
+}
+.inputs{
+    display: flex ;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 2vh;
+   
+}
+.inputs input{
+    height: 5vh;
+    border-radius: 5px;
+    border-color:rgb(109, 109, 109) ;
+    padding: 0vh 2vh;
+   
+}
+.text p{
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+}
+.text{
+    padding-top: 3vh;
+}
+.box label{
+    font-size: 14px ;
+}
+.box span{
+    color: #00bf8f;
+}
+.box label{
+    color: rgb(109, 109, 109) ;
+}
+.box{
+    padding-top: 2vh;
+}
+.privacyPolicy{
+    padding-bottom: 1vh;
+}
+
+
+.getStarted button{
+    width: 9vw;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    color: rgb(109, 109, 109);
+    
+}
+.getStarted{
+    padding-top: 2vh;
+} 
+.info{
+    height: 60vh;
+    background-color: rgb(0, 179, 255);
+    display: flex;
+    flex-direction: column;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.infos img{
+    height: 15vh;
+}
+.decore{
+    height: 45vh;
+    width: 20vw;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
